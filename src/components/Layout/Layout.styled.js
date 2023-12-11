@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
-  max-width: 960px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 16px;
 `;
@@ -35,6 +35,10 @@ export const Link = styled(NavLink)`
 
   &.active {
     color: white;
-    background-color: orangered;
+    background-color: #3470ff;
   }
+`;
+export const Image = styled.img`
+  display: block;
+  width: 80px;
 `;

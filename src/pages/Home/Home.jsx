@@ -1,8 +1,10 @@
+import Foto from '../../image/car_rental_description.jpg';
+
 const Home = () => {
   return (
     <main>
       <h1>Welcome to Car Rent APP</h1>
-      <img src="../image/car_rental_description.jpg" alt="foto car" />
+      <img src={Foto} alt="foto car" />
       <p>
         Our company has been operating in the car rental industry for more than
         ten years. Our many years of experience allows us to develop and

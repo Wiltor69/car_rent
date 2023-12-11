@@ -1,16 +1,15 @@
 import { Suspense } from 'react';
-import { Container, Header, Logo, Link } from './Layout.styled';
+import { Container, Header, Link, Image } from './Layout.styled';
 import { Outlet } from 'react-router-dom';
 import { Loader } from 'components/Loader/Loader';
+import Logo from '../../image/Rental_car_logo.jpg';
 
 export const Layout = () => {
   return (
     <Container>
       <Header>
-        <Logo>
-          <img src="../../image/Rental_car_logo.jpg" alt="foto logo" />
-          Car Rent
-        </Logo>
+        <Image src={Logo} alt="foto logo" />
+        <h1>Car Rent</h1>
         <nav>
           <Link to="/" end>
             Home
