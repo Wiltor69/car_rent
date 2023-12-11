@@ -12,10 +12,7 @@ export const Container = styled.div`
   align-items: center;
   gap: 20px;
 
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-    padding: 20px 95px;
-  }
+ 
 
   @media screen and (min-width: 1440px) {
     max-width: 1440px;

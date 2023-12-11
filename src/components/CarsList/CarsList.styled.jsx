@@ -9,16 +9,6 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 25px 50px;
 
-  /* @media screen and (min-width: 768px) {
-    max-width: 768px;
-    row-gap: 50px;
-    column-gap: 29px;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    padding: 25px 95px;
-  } */
-
   @media screen and (min-width: 1440px) {
     max-width: 1440px;
     padding: 50px 128px;

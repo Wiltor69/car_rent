@@ -24,9 +24,9 @@ export const ModalBlock = styled.div`
   transform: translate(-50%, -50%);
 
   width: 100%;
-  max-width: 335px;
+  max-width: 435px;
 
-  min-height: 225px;
+  min-height: 325px;
   max-height: 80%;
 
   padding: 40px;
@@ -55,10 +55,6 @@ export const ModalBlock = styled.div`
 
   ::-webkit-scrollbar-thumb:hover {
     background: #7c7c7c;
-  }
-
-  @media screen and (min-width: 768px) {
-    max-width: 541px;
   }
 `;
 
